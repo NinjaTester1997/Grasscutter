@@ -2,7 +2,7 @@ package emu.grasscutter.command;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
-
+/*line*/
 @Retention(RetentionPolicy.RUNTIME)
 public @interface Command {
     String label() default "";
